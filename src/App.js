@@ -2,6 +2,9 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import axios, * as others from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
+import Wrapper from './components/wrapper/wrapper';
 
 function App() {
 
@@ -40,6 +43,8 @@ useEffect(() => {
 
   return (
     <div className="App col-12">
+    <Wrapper >
+     <Navbar/>
       <div className="main-title">
         <span >Bitcoin Prices</span>
       </div>
@@ -56,8 +61,10 @@ useEffect(() => {
             <span>{price}</span>
           )}
         </div>
+        </Footer>
       </div>
-    </div>
+
+    
   );
 }
 
