@@ -1,12 +1,14 @@
-import './App.css';
 import React, {useState, useEffect} from 'react';
 import axios, * as others from 'axios';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import Wrapper from './components/wrapper/wrapper';
+import Navbar from './components/navbar/navbar';
 
-function App() {
+var mydate = require('current-date');
+
+function App() {  
 
 const [namesArray, setNamesArray] = useState([]);
 const [priceArray, setPriceArray] = useState([]);
@@ -43,8 +45,12 @@ useEffect(() => {
 
   return (
     <div className="App col-12">
-    <Wrapper >
-     <Navbar/>
+      <Navbar />
+      <Wrapper />
+      <div className="date-and-time">
+        <span>Date/Time:</span>
+        {mydate()}
+      </div>
       <div className="main-title">
         <span >Bitcoin Prices</span>
       </div>
@@ -61,7 +67,8 @@ useEffect(() => {
             <span>{price}</span>
           )}
         </div>
-        </Footer>
+      </div>
+      <Footer />
       </div>
 
     
