@@ -1,15 +1,14 @@
-import './App.css';
 import React, {useState, useEffect} from 'react';
 import axios, * as others from 'axios';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-var mydate = require('current-date');
-import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import Wrapper from './components/wrapper/wrapper';
+import Navbar from './components/navbar/navbar';
 
-function App() {
+var mydate = require('current-date');
 
-  
+function App() {  
 
 const [namesArray, setNamesArray] = useState([]);
 const [priceArray, setPriceArray] = useState([]);
@@ -46,6 +45,8 @@ useEffect(() => {
 
   return (
     <div className="App col-12">
+      <Navbar />
+      <Wrapper />
       <div className="date-and-time">
         <span>Date/Time:</span>
         {mydate()}
@@ -67,6 +68,7 @@ useEffect(() => {
           )}
         </div>
       </div>
+      <Footer />
       </div>
 
     
