@@ -1,6 +1,9 @@
 import './App.css';
 import React, {useState} from 'react';
-import axios, * as others from 'axios';
+import axios from 'axios';
+import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
+import Wrapper from './components/wrapper/wrapper';
 
 function App() {
 
@@ -24,9 +27,15 @@ axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=
   });
 
   return (
+    <Wrapper >
+      <Navbar/>
+
     <div className="App">
-      
+     
+
     </div>
+    <Footer />
+    </Wrapper>
   );
 }
 
