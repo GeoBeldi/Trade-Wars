@@ -3,6 +3,9 @@ import React, {useState, useEffect} from 'react';
 import axios, * as others from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 var mydate = require('current-date');
+import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
+import Wrapper from './components/wrapper/wrapper';
 
 function App() {
 
@@ -64,7 +67,9 @@ useEffect(() => {
           )}
         </div>
       </div>
-    </div>
+      </div>
+
+    
   );
 }
 
