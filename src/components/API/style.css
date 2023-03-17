@@ -1,0 +1,32 @@
+.table {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    color: antiquewhite;
+    background-color: blue;
+   
+  }
+  
+  .main-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 3rem;
+    padding: auto;
+  }
+  
+  .names-div, .prices-div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .names-div span, .prices-div span {
+    border: 1px solid black;
+  }
+  
+  .date-and-time {
+font-size: 30px;
+font-weight: 500;
+  }

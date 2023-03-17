@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="logo">
                 <h3><i className="fa-sharp fa-solid fa-alien-8bit"></i>
-                    Barry Hardacre Developer <i className="fa-sharp fa-solid fa-alien-8bit"></i>
+                    Trade Wars <i className="fa-sharp fa-solid fa-alien-8bit"></i>
                 </h3>
             </div>
             
@@ -20,16 +20,10 @@ export default function Navbar() {
                         <a href="#home" className="nav-link">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#about" className="nav-link">About Me</a>
+                        <a href="#prices" className="nav-link">current prices</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#work" className="nav-link">Projects</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#skills" className="nav-link">My Skills</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#connect" className="nav-link">Contact Me</a>
+                        <a href="#connect" className="nav-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
