@@ -10,7 +10,6 @@ export default function footer() {
     <hr />
     <div id="contact-details" className="text-center pt-3 pb-4">
         <a href="#home" className="d-block bg-accent h4">Trade Wars</a>
-        <a href="" className="d-block bg-accent h4"></a>
         <h3 className="mb-3">Follow us on GitHub and LinkedIn</h3>
         <div id="social-icons" className="justify-content-center">
         <MDBBtn className='m-1' style={{ backgroundColor: '#333333' }} href='#'>
