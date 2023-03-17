@@ -1,0 +1,15 @@
+.contact-me {
+    margin-top: 70px;
+    margin-bottom: -30px;
+}
+
+.bg-accent {
+    color: var(--clr-accent);
+}
+ #contact-details {
+    margin-top: -20px;
+} 
+
+a:hover {
+    color: black;
+}

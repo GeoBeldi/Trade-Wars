@@ -2,24 +2,57 @@
   text-align: center;
 }
 
-.table {
-  display: flex;
-  flex-direction: row;
-}
 
-.main-title {
-  margin: 3rem;
-}
-
-.names-div, .prices-div {
-  display: flex;
-  flex-direction: column;
-}
-
-.names-div span, .prices-div span {
-  border: 1px solid black;
-}
 
 .title {
-  background-color: aqua;
+  background-color: rgb(22, 24, 24);
 }
+
+body {
+  background-image:url(./assets/stock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  
+    line-height: 1;
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+}
+
+.section-title {
+    margin-bottom: .25em;
+}
+
+.section-subtitle {
+    margin: 0;
+    font-size: var(--fs-h3)
+}
+/* .btn {   
+  color: var(--clr-dark);
+  background-color: #4a47e6;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2x;
+  transition: 200ms ease-in-out;
+} */
