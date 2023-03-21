@@ -4,4 +4,15 @@ footer {
     width: 100%;
     height: auto;
     margin-bottom: 0;
+   
+}
+.section-title {
+    font-weight: 700;
+}
+.mb-3 {
+    font-weight: 700;
+}
+
+.mb-0 {
+    font-weight:700 ;
 }

@@ -32,6 +32,7 @@ h1 {
 }
 
 h2 {
+  font-weight: 1000;
     font-size: var(--fs-h2);
 }
 
@@ -47,7 +48,7 @@ h3 {
     margin: 0;
     font-size: var(--fs-h3)
 }
-/* .btn {   
+.btn {   
   color: var(--clr-dark);
   background-color: #4a47e6;
   cursor: pointer;
@@ -55,4 +56,4 @@ h3 {
   font-weight: 800;
   letter-spacing: 2x;
   transition: 200ms ease-in-out;
-} */
+}
