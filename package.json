@@ -1,7 +1,7 @@
 {
   "name": "tradewars",
   "version": "0.1.0",
-  "homepage": "https://GeoBeldi.github.io/Trade-Wars",
+  "homepage": "https://subtle-sable-299891.netlify.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
