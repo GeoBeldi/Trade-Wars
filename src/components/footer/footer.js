@@ -12,14 +12,14 @@ export default function footer() {
         <a href="#home" className="d-block bg-accent h4">Trade Wars</a>
         <h3 className="mb-3">Follow us on GitHub and LinkedIn</h3>
         <div id="social-icons" className="justify-content-center">
-        <MDBBtn className='m-1' style={{ backgroundColor: '#333333' }} href='#'>
+        <MDBBtn className='m-1' style={{ backgroundColor: '#333333' }} href='https://github.com/GeoBeldi/Trade-Wars'>
           <MDBIcon fab icon='github' />
          </MDBBtn>
             
-            <MDBBtn className='m-1' style={{ backgroundColor: '#0082ca' }} href='#'>
+            <MDBBtn className='m-1' style={{ backgroundColor: '#0082ca' }} href='https://www.linkedin.com/in/barry-hardacre-a18921224/'>
            <MDBIcon fab icon='linkedin-in' />
           </MDBBtn>
-          <p class="text-center mb-0">Copyright &copy; 2023</p>
+          <p class="mb-0">Copyright &copy; 2023</p>
         </div>
     </div>
 </section>

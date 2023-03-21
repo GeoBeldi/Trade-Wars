@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './style.css';
-   
+import { MDBRipple } from 'mdb-react-ui-kit';
+
    
    
    
@@ -44,7 +45,7 @@ useEffect(() => {
 },[]);
 
   return (
-   
+   <MDBRipple>
     <div className="App col-12" id='prices'>
       <div className="date-and-time">
         <span>Date/Time:</span>
@@ -68,7 +69,7 @@ useEffect(() => {
         </div>
       </div>
        </div>
-
+</MDBRipple>
 
   );
 }
